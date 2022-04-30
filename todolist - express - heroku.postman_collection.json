@@ -80,7 +80,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://todolist-api-express-practice.herokuapp.com/6264e1f17777b18b0365fa75",
+					"raw": "https://todolist-api-express-practice.herokuapp.com/posts/626cde87d4446706f41aa642",
 					"protocol": "https",
 					"host": [
 						"todolist-api-express-practice",
@@ -88,7 +88,8 @@
 						"com"
 					],
 					"path": [
-						"6264e1f17777b18b0365fa75"
+						"posts",
+						"626cde87d4446706f41aa642"
 					]
 				}
 			},
@@ -109,7 +110,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://todolist-api-express-practice.herokuapp.com/6264f9a00bc2aa1a4c3e425a",
+					"raw": "https://todolist-api-express-practice.herokuapp.com/posts/626cde8bd4446706f41aa647",
 					"protocol": "https",
 					"host": [
 						"todolist-api-express-practice",
@@ -117,7 +118,8 @@
 						"com"
 					],
 					"path": [
-						"6264f9a00bc2aa1a4c3e425a"
+						"posts",
+						"626cde8bd4446706f41aa647"
 					]
 				}
 			},
