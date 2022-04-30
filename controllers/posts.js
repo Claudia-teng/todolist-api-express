@@ -37,7 +37,7 @@ async function deletePost(req, res) {
   try {
     if (id) {
       const deletedPost = await Posts.findByIdAndDelete(id);
-      if (editedPost) {
+      if (deletedPost) {
         successHandle(res, deletedPost)
       } else {
         errorHandle(res);
