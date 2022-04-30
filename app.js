@@ -5,6 +5,7 @@ const api = require('./routes/api');
 require('dotenv').config();
 require('./service/mongo');
 
+app.use(express.json());
 app.use('/', api);
 
 app.use((req, res, next) => {
